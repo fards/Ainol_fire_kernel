@@ -1,0 +1,4 @@
+0x00000000	mali_set_user_setting	drivers/amlogic/mali/mali	(unknown)
+0x00000000	mali_pmu_powerdown	drivers/amlogic/mali/mali	(unknown)
+0x00000000	mali_get_user_setting	drivers/amlogic/mali/mali	(unknown)
+0x00000000	mali_pmu_powerup	drivers/amlogic/mali/mali	(unknown)
