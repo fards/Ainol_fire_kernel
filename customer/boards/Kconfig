@@ -1,0 +1,134 @@
+#
+# Kconfig to support customer boards
+#
+
+config MACH_MESON3_F04
+	depends on ARCH_MESON3
+	bool "Meson3 f04 board"
+	help
+	  Support for Amlogic Meson3 f04 customer platform.
+	 
+config MACH_MESON6_G04
+	depends on ARCH_MESON6
+	bool "Meson6 g04 board"
+	help
+	  Support for Amlogic Meson6 g04 customer platform.
+
+config MACH_MESON6_G06
+	depends on ARCH_MESON6
+	bool "Meson6 g06 board"
+	help
+	  Support for Amlogic Meson6 g06 customer platform.
+
+config MACH_MESON6_G06_E3
+	depends on ARCH_MESON6
+	bool "Meson6 g06_e3 board"
+	help
+	  Support for Amlogic Meson6 g06_e3 customer platform.
+	  
+config MACH_MESON6_G06_848
+	depends on ARCH_MESON6
+	bool "Meson6 g06_848 board"
+	help
+	  Support for Amlogic Meson6 g06_848 customer platform.
+
+config MACH_MESON6_G08
+	depends on ARCH_MESON6
+	bool "Meson6 g08 board"
+	help
+	  Support for Amlogic Meson6 g08 customer platform.
+
+config MACH_MESON6_G08_768
+	depends on ARCH_MESON6
+	bool "Meson6 g08_768 board"
+	help
+	  Support for Amlogic Meson6 g08_768 customer platform.
+
+config MACH_MESON6_G06_E4
+	depends on ARCH_MESON6
+	bool "Meson6 g06_e4 board"
+	help
+	  Support for Amlogic Meson6 g06_e4 customer platform.
+
+config MACH_MESON6_G06_E4_AINOL
+	depends on ARCH_MESON6
+	bool "Meson6 g06_e4_ainol board"
+	help
+	  Support for Amlogic Meson6 g06_e4_ainol customer platform.
+
+config MACH_MESON6_G06_E4_JINLI
+	depends on ARCH_MESON6
+	bool "Meson6 g06_e4_jinli board"
+	help
+	  Support for Amlogic Meson6 g06_e4_jinli customer platform.
+config MACH_MESON6_G08_EM1060
+        depends on ARCH_MESON6
+        bool "Meson6 g08_em1060 board"
+        help
+          Support for Amlogic Meson6 g08 em1060 customer platform.
+		  
+config MACH_MESON6_G08_EM9760
+        depends on ARCH_MESON6
+        bool "Meson6 g08_em9760 board"
+        help
+          Support for Amlogic Meson6 g08 em9760 customer platform.
+
+config MACH_MESON6_G24
+	depends on ARCH_MESON6
+	bool "Meson6 g24 board"
+	help
+	  Support for Amlogic Meson6 g24 customer platform.
+
+config MACH_MESON6_G24_G6
+        depends on ARCH_MESON6
+        bool "Meson6 g24 G6 board"
+        help
+          Support for Amlogic Meson6 g24 G6 customer platform.
+
+config MACH_MESON6_G24_K8                                             
+          depends on ARCH_MESON6                                      
+          bool "Meson6 g24_k8 board"                                
+          help                                                      
+            Support for Amlogic Meson6 g24_k8 customer platform.  
+                                                                   
+config MACH_MESON6_G14
+	depends on ARCH_MESON6
+	bool "Meson6 g14 board"
+	help
+	  Support for Amlogic Meson6 g14 customer platform.
+
+config MACH_MESON6_G14_PT840
+	depends on ARCH_MESON6
+	bool "Meson6 g14 PT840 board"
+	help
+	  Support for Amlogic Meson6 g14 PT840 customer platform.
+
+config MACH_MESON6_G12_M1005
+	depends on ARCH_MESON6
+	bool "Meson6 g12 M1005 board"
+	help
+	  Support for Amlogic Meson6 g12 M1005 customer platform.
+
+config MACH_MESON6_G12_M805
+	depends on ARCH_MESON6
+	bool "Meson6 g12 M805 board"
+	help
+	  Support for Amlogic Meson6 g12 M805 customer platform.
+
+config MACH_MESON6_G11_E8
+	depends on ARCH_MESON6
+	bool "Meson6 g11_e8 board"
+	help
+	  Support for Amlogic Meson6 g11_e8 customer platform.	  
+
+config TC103
+	depends on MACH_MESON6_G11_E8
+	bool "tc103 config for g11 e8 bsp"
+	help
+	  config tc103 for g11 e8
+
+config MACH_MESON6_G11_N8
+	depends on ARCH_MESON6
+	bool "Meson6 g11_n8 board"
+	help
+	  Support for Amlogic Meson6 g11_n8 customer platform.	  

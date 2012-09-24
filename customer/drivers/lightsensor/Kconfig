@@ -1,0 +1,22 @@
+#
+# LightSensor driver configuration
+#
+
+menuconfig MESON_LIGHT_SENSOR
+	bool "LightSensor"
+	help
+	  Say Y here, and a list of supported touchscreens will be displayed.
+	  This option doesn't affect the kernel.
+
+	  If unsure, say Y.
+
+if MESON_LIGHT_SENSOR
+
+config LITE_ON_LIGHT_SENSOR_LTR501
+	tristate "Lite On I2C light sensor ltr501"
+	depends on I2C
+	default n
+	help
+	  Say Y here if you want to use the light sensor ltr501.
+
+endif # MESON_INPUT_TOUCHSCREEN

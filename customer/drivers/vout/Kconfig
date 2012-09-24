@@ -1,0 +1,12 @@
+#
+# Video output configuration
+#
+menu "Amlogic LCD T3 module"
+	
+config AM_LCD_T3		
+	tristate "LCD T3 control"
+	default n
+	help
+		LCD T3 control
+endmenu
+	

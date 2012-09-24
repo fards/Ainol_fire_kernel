@@ -1,0 +1,46 @@
+#
+# Makefile to support customer boards
+#
+obj-$(CONFIG_MACH_MESON3_F04) += board-m3f04.o
+obj-$(CONFIG_MACH_MESON3_F04) += board-m3f04-power.o
+obj-$(CONFIG_MACH_MESON3_F04) += board-m3f04-panel.o
+obj-$(CONFIG_MACH_MESON6_G04) += board-m6g04.o
+obj-$(CONFIG_MACH_MESON6_G04) += board-m6g04-panel.o
+obj-$(CONFIG_MACH_MESON6_G06) += board-m6g06.o
+obj-$(CONFIG_MACH_MESON6_G06) += board-m6g06-panel.o
+obj-$(CONFIG_MACH_MESON6_G06_E3) += board-m6g06-e3.o
+obj-$(CONFIG_MACH_MESON6_G06_E3) += board-m6g06-e3-panel.o
+obj-$(CONFIG_MACH_MESON6_G06_E4) += board-m6g06-e4.o
+obj-$(CONFIG_MACH_MESON6_G06_E4) += board-m6g06-e4-panel.o
+obj-$(CONFIG_MACH_MESON6_G06_E4_JINLI) += board-m6g06-e4-jinli.o
+obj-$(CONFIG_MACH_MESON6_G06_E4_JINLI) += board-m6g06-e4-jinli-panel.o
+obj-$(CONFIG_MACH_MESON6_G06_848) += board-m6g06-848.o
+obj-$(CONFIG_MACH_MESON6_G06_848) += board-m6g06-848-panel.o
+obj-$(CONFIG_MACH_MESON6_G06_E4_AINOL) += board-m6g06-e4-ainol.o
+obj-$(CONFIG_MACH_MESON6_G06_E4_AINOL) += board-m6g06-e4-ainol-panel.o
+obj-$(CONFIG_MACH_MESON6_G08) += board-m6g08.o
+obj-$(CONFIG_MACH_MESON6_G08) += board-m6g08-panel.o
+obj-$(CONFIG_MACH_MESON6_G08_768) += board-m6g08-768.o
+obj-$(CONFIG_MACH_MESON6_G08_768) += board-m6g08-768-panel.o
+obj-$(CONFIG_MACH_MESON6_G08_EM1060) += board-m6g08-em1060.o
+obj-$(CONFIG_MACH_MESON6_G08_EM1060) += board-m6g08-em1060-panel.o
+obj-$(CONFIG_MACH_MESON6_G08_EM9760) += board-m6g08-em9760.o
+obj-$(CONFIG_MACH_MESON6_G08_EM9760) += board-m6g08-em9760-panel.o
+obj-$(CONFIG_MACH_MESON6_G24) += board-m6g24.o
+obj-$(CONFIG_MACH_MESON6_G24) += board-m6g24-panel.o
+obj-$(CONFIG_MACH_MESON6_G24_G6) += board-m6g24G6.o
+obj-$(CONFIG_MACH_MESON6_G24_G6) += board-m6g24G6-panel.o
+obj-$(CONFIG_MACH_MESON6_G24_K8) += board-m6g24_k8.o
+obj-$(CONFIG_MACH_MESON6_G24_K8) += board-m6g24_k8-panel.o
+obj-$(CONFIG_MACH_MESON6_G14) += board-m6g14.o
+obj-$(CONFIG_MACH_MESON6_G14) += board-m6g14-panel.o
+obj-$(CONFIG_MACH_MESON6_G14_PT840) += board-m6g14_PT840.o
+obj-$(CONFIG_MACH_MESON6_G14_PT840) += board-m6g14-PT840-panel.o
+obj-$(CONFIG_MACH_MESON6_G12_M1005) += board-m6g12-M1005.o
+obj-$(CONFIG_MACH_MESON6_G12_M1005) += board-m6g12-M1005-panel.o
+obj-$(CONFIG_MACH_MESON6_G12_M805) += board-m6g12-M805.o
+obj-$(CONFIG_MACH_MESON6_G12_M805) += board-m6g12-M805-panel.o
+obj-$(CONFIG_MACH_MESON6_G11_E8) += board-m6g11-e8.o
+obj-$(CONFIG_MACH_MESON6_G11_E8) += board-m6g11-e8-panel.o
+obj-$(CONFIG_MACH_MESON6_G11_N8) += board-m6g11-n8.o
+obj-$(CONFIG_MACH_MESON6_G11_N8) += board-m6g11-n8-panel.o
